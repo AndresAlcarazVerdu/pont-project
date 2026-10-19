@@ -1,0 +1,22 @@
+# Entornos virtuales y Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Pesos de modelos y datasets gigantes (Machine Learning)
+pont-ml/datasets/
+pont-ml/models/*.pt
+# Nota: Sí subiremos los .tflite porque son muy pequeños (<1MB)
+
+# Flutter / Dart
+pont-app/.dart_tool/
+pont-app/build/
+pont-app/.flutter-plugins
+pont-app/.flutter-plugins-dependencies
+pont-app/.pub-cache/
+
+# SO (Mac/Windows)
+.DS_Store
+Thumbs.db
